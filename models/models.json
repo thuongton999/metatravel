@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Tháp Nhạn",
+        "texture": "/models/nhan/textured.jpg",
+        "material": "/models/nhan/textured.mtl",
+        "object": "/models/nhan/textured.obj"
+    },
+    {
+        "name": "Tháp Nghinh Phong",
+        "texture": "/models/nghinhphong/textured.jpg",
+        "material": "/models/nghinhphong/textured.mtl",
+        "object": "/models/nghinhphong/textured.obj"
+    },
+    {
+        "name": "Tượng linh vật năm Nhâm Dần",
+        "texture": "/models/tiger/textured.jpg",
+        "material": "/models/tiger/textured.mtl",
+        "object": "/models/tiger/textured.obj"
+    }
+]

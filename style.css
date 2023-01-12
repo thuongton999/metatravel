@@ -1,0 +1,78 @@
+body {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-color: black;
+    overflow: hidden;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+#webglOutput {
+    width: 100%;
+    height: 100%;
+}
+
+.switch {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    cursor: pointer;
+    background-color: black;
+    padding: 1rem 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    border-radius: 0.5rem;
+    z-index: 99999;
+    transition: all 0.3s ease-in-out;
+}
+.switch:active {
+    transform: scale(0.9);
+}
+
+.loader {
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    background-color: rgba(0, 0, 0, 0.5);
+    transform: rotate(45deg);
+    overflow: hidden;
+    opacity: 1;
+    transition: opacity 3s ease, visibility 3s;
+    z-index: 99999;
+}
+.loader[disable] {
+    opacity: 0;
+    visibility: hidden;
+}
+.loader:after {
+    content: "";
+    position: absolute;
+    inset: 8px;
+    margin: auto;
+    background: #222b32;
+}
+.loader:before {
+    content: "";
+    position: absolute;
+    inset: -15px;
+    margin: auto;
+    background: #de3500;
+    animation: diamondLoader 2s linear infinite;
+}
+@keyframes diamondLoader {
+    0%,
+    10% {
+        transform: translate(-64px, -64px) rotate(-45deg);
+    }
+    90%,
+    100% {
+        transform: translate(0px, 0px) rotate(-45deg);
+    }
+}
