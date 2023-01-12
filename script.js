@@ -74,7 +74,7 @@ let counter = 0;
 function switchModel() {
     if (current_model) {
         scene.remove(current_model);
-        scene.remove(box);
+        scene.remove(current_box);
     }
     loadModel(models[counter]);
     counter = (counter+1) % 3;
