@@ -72,7 +72,7 @@ scene.add(ambientLight);
 
 let counter = 0;
 function switchModel() {
-    loading.removeAttribute(disable);
+    loading.removeAttribute("disable");
     if (current_model) {
         scene.remove(current_model);
         scene.remove(current_box);
