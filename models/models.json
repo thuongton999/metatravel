@@ -1,20 +1,20 @@
 [
     {
         "name": "Tháp Nhạn",
-        "texture": "/models/nhan/textured.jpg",
-        "material": "/models/nhan/textured.mtl",
-        "object": "/models/nhan/textured.obj"
+        "texture": "https://thuongton999.github.io/metatravel/models/nhan/textured.jpg",
+        "material": "https://thuongton999.github.io/metatravel/models/nhan/textured.mtl",
+        "object": "https://thuongton999.github.io/metatravel/models/nhan/textured.obj"
     },
     {
         "name": "Tháp Nghinh Phong",
-        "texture": "/models/nghinhphong/textured.jpg",
-        "material": "/models/nghinhphong/textured.mtl",
-        "object": "/models/nghinhphong/textured.obj"
+        "texture": "https://thuongton999.github.io/metatravel/models/nghinhphong/textured.jpg",
+        "material": "https://thuongton999.github.io/metatravel/models/nghinhphong/textured.mtl",
+        "object": "https://thuongton999.github.io/metatravel/models/nghinhphong/textured.obj"
     },
     {
         "name": "Tượng linh vật năm Nhâm Dần",
-        "texture": "/models/tiger/textured.jpg",
-        "material": "/models/tiger/textured.mtl",
-        "object": "/models/tiger/textured.obj"
+        "texture": "https://thuongton999.github.io/metatravel/models/tiger/textured.jpg",
+        "material": "https://thuongton999.github.io/metatravel/models/tiger/textured.mtl",
+        "object": "https://thuongton999.github.io/metatravel/models/tiger/textured.obj"
     }
 ]
