@@ -10,7 +10,7 @@ const aspect = window.innerWidth / window.innerHeight;
 const scene = new THREE.Scene();
 const camera = new THREE.PerspectiveCamera(45, aspect, 0.1, 1000);
 const renderer = new THREE.WebGLRenderer({ canvas, antialias: true });
-const models = await fetch("models/models.json").then(res => res.json());
+const models = await fetch("https://thuongton999.github.io/metatravel/models/models.json").then(res => res.json());
 let current_model = null;
 let current_box = null;
 
